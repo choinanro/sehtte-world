@@ -5,9 +5,9 @@
     /* 1fr 1fr 2fr 1fr 같은 비율도 가능. 가능하면 반응형으로 만들자 */
     grid-auto-rows: minmax(150px, auto);
     /* 여기도 또한 픽셀로 줄 수도 있지만, 가능하면 반응형으로 비율이나 오토를 통해 반응형으로 만들자 */
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
-    grid-gap: 10px;
+    column-gap: 10px;
+    row-gap: 10px;
+    gap: 10px;
     /* gap 은 셀 사이사이 갭을 주는 것. 전체적으로 그리드에 주려면 패딩을 주면 됨*/
 }
 
