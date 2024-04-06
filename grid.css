@@ -1,0 +1,11 @@
+.container {
+    display: grid;
+    padding: 10px;
+    grid-template-columns: repeat(5, 20%);
+    /* 1fr 1fr 2fr 1fr 같은 비율도 가능. 가능하면 반응형으로 만들자 */
+    grid-auto-rows: minmax(150px, auto);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-gap: 10px;
+    /* gap 은 셀 사이사이 갭을 주는 것. 전체적으로 그리드에 주려면 패딩을 주면 됨*/
+}
