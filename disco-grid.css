@@ -1,0 +1,53 @@
+.background {
+    background-color: rgb(40, 40, 255);
+}
+
+.grid-container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: repeat(7, auto);
+    gap: 50px;
+    border: solid gray;
+    grid-template-areas: 
+        'a b c'
+        'd e f'
+        'g h i'
+        'j k l'
+        'm n o'
+        'p q r'
+        's t u'
+}
+
+.image {
+    border: solid red;
+    width: 20%;
+}
+
+#lazzi3 {
+    grid-area: a;
+}
+
+#lazzi2 {
+    grid-area: d;
+}
+
+#lazzi1 {
+    grid-area: g;
+    width: 10%;
+}
+
+#soop4 {
+    grid-area: j;
+}
+
+#soop3 {
+    grid-area: m;
+}
+
+#soop2 {
+    grid-area: p;
+}
+
+#soop1 {
+    grid-area: s;
+}
