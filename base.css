@@ -22,6 +22,12 @@
     padding: 30px;
     color: rgb(114, 26, 255);
 }
+#body {
+    text-align: center;
+    padding: 30px;
+    color: rgb(114, 26, 255);
+    margin-bottom: 100px;
+}
 #contact {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
