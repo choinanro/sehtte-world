@@ -4,23 +4,26 @@
 
 .grid-container1 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-rows: repeat(7, auto);
-    gap: 50px;
+    grid-template-columns: 1fr;
+    grid-template-columns: 7fr;
+    background-color: aqua;
+    gap: 10px;
     border: solid gray;
     grid-template-areas: 
-        'a b c'
-        'd e f'
-        'g h i'
-        'j k l'
-        'm n o'
-        'p q r'
-        's t u'
+        'a'
+        'd'
+        'g'
+        'j'
+        'm'
+        'p'
+        's'
 }
 
 .image {
     border: solid red;
-    width: 20%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 #lazzi3 {
@@ -33,7 +36,6 @@
 
 #lazzi1 {
     grid-area: g;
-    width: 10%;
 }
 
 #soop4 {
@@ -50,4 +52,14 @@
 
 #soop1 {
     grid-area: s;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-columns: 7fr ;
+    background-color: aqua;
+    gap: 10px;
+    border: solid gray;
+    grid-template-areas: 
 }
