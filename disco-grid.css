@@ -25,6 +25,8 @@ body {
 }
 
 .container1 {
+    align-items: center;
+    text-decoration-color: aqua;
     grid-template-areas:
         'artwork credit description'
         'lazzi3 lazzi3-credit lazzi3-desc'
@@ -47,49 +49,49 @@ body {
 }
 
 .lazzi3 {
-    background-color: black;
+    /* background-color: black; */
     grid-column: 1 / 2; /* 1 / span 1; = 라인 1부터 1개를 차지할 거야 */
     grid-row: 1 / span 1;
     grid-area: lazzi3;
 }
 
 .lazzi2 {
-    background-color: burlywood;
+    /* background-color: burlywood; */
     grid-column: 1 / 2;
     grid-row: 2 / span 1;
     grid-area: lazzi2;
 }
 
 .lazzi1 {
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
     grid-column: 1 / 2;
     grid-row: 3 / span 1;
     grid-area: lazzi1;
 }
 
 .soop4 {
-    background-color: chocolate;
+    /* background-color: chocolate; */
     grid-column: 1 / 2;
     grid-row: 3 / span 1;
     grid-area: soop4;
 }
 
 .soop3 {
-    background-color: gray;
+    /* background-color: gray; */
     grid-column: 1 / 2;
     grid-row: 4 / span 1;
     grid-area: soop3;
 }
 
 .soop2 {
-    background-color: blue;
+    /* background-color: blue; */
     grid-column: 1 / 2;
     grid-row: 5 / span 1;
     grid-area: soop2;
 }
 
 .soop1 {
-    background-color: darkgreen;
+    /* background-color: darkgreen; */
     grid-column: 1 / 2;
     grid-row: 6 / span 1;
     grid-area: soop1;
